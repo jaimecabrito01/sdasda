@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-body{
-    background-color: #632c6e;
 
-}
 
 .account-img {
     width: 30px; /* Defina a largura desejada para a imagem */
     height: 30px; /* Defina a altura desejada para a imagem */
   }
+  body{
+    background-color: #632c6e;
+
+}
+
+
 .container {
     background-color: #fdf128;
 
@@ -129,11 +132,19 @@ body {
 }
 
 
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
 
 
 
-
-
+}
 
 
 

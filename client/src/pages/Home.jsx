@@ -1,32 +1,35 @@
+
 const Home = () => {
     return (
         <div>
-            <div class="container ">
+            <div className="container ">
 
 
-<div class="row">
-    <div class="col-md-6 offset-md-3">
+                
+<div className="row">
+    <div className="col-md-6 offset-md-3">
 
     </div>
 </div>
 
-    <div class="col-md-6">
-        <div class="btncha">
-            <a href="{{ url_for('nivel_blueprint.nivel_1') }}" class="button button--piyo">
-                <div class="button__wrapper">
-                    <span class="button__text">ENTRY</span>
-                </div>
-                <div class="characterBox">
-                    <div class="character wakeup">
-                        <div class="character__face"></div>
+    <div className="col-md-6">
+        <div className="btncha">
+            <a href="" className="button button--piyo">
+            <div className="button__wrapper">
+                        <span className="button__text">ENTRY</span>
                     </div>
-                    <div class="character wakeup">
-                        <div class="character__face"></div>
+                    <div className="characterBox">
+                        <div className="character wakeup">
+                            <div className="character__face"></div>
+                        </div>
+                        <div className="character wakeup">
+                            <div className="character__face"></div>
+                        </div>
+                        <div className="character">
+                            s
+                            <div className="character__face"></div>
+                        </div>
                     </div>
-                    <div class="character">
-                        <div class="character__face"></div>
-                    </div>
-                </div>
             </a>
 
 
